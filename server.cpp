@@ -11,11 +11,10 @@
 
 #include <map>
 
-const uint16_t PORT = 3435;
 const int MAX_EVENTS = 5;
 const int BUF_SIZE = 256;
 
-#include "passphrase.h"
+#include "config.h"
 
 void error(const char* msg) {
     perror(msg);
